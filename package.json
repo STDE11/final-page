@@ -1,0 +1,22 @@
+{
+  "name": "final-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nastyapozhik/final-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nastyapozhik/final-page/issues"
+  },
+  "homepage": "https://github.com/Nastyapozhik/final-page#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
