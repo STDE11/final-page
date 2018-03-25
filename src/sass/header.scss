@@ -1,0 +1,50 @@
+$orange: #ff6c00;
+
+
+.menu {
+  margin: 20px 5%;
+  height: 40px;
+  color: $orange;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  a {
+    font-family: "UbuntuMedium";
+    text-decoration: none;
+    color: $orange;
+    padding-left: 30px;
+  }
+  &__nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      font-size: 150%;
+    }
+  }
+  &__nav2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a {
+      font-size: 85%;
+    }
+  }
+}
+
+
+
+@media only screen and (min-width: 320px){
+  .menu {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 768px){
+  .menu {
+    display: flex;
+  }
+
+}
